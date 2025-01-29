@@ -12,4 +12,11 @@ public class UserInput {
         return scanner.nextInt();
     }
 
+    public double[] getTwoNumbers() {
+        System.out.print("Enter first number: ");
+        double num1 = scanner.nextDouble();
+        System.out.print("Enter second number: ");
+        double num2 = scanner.nextDouble();
+        return new double[]{num1, num2};
+    }
 }
