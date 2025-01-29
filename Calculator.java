@@ -1,5 +1,7 @@
+// Calculator class for basic math operations
 public class Calculator {
 
+    // Basic arithmetic operations
     public double add(double a, double b) {
         return a + b;
     }
@@ -16,6 +18,7 @@ public class Calculator {
         return a / b;
     }
 
+    // Fibonacci sequence generator
     public void fibonacci(int n) {
         int a = 0, b = 1;
         System.out.print("Fibonacci Series: " + a + " " + b);
@@ -28,6 +31,7 @@ public class Calculator {
         System.out.println();
     }
 
+    // Array operations
     public double arraySum(double[] array) {
         double sum = 0;
         for (double num : array) {
@@ -36,6 +40,7 @@ public class Calculator {
         return sum;
     }
 
+    // Statistical calculations
     public double arrayMean(double[] array) {
         return arraySum(array) / array.length;
     }
