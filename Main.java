@@ -1,3 +1,9 @@
+/*
+ * Name: Samarth Bhadane
+ * PRN: 24070126503
+ * Batch: A2
+ */
+
 import java.util.Scanner;
 
 public class Main {
