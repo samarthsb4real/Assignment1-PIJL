@@ -35,4 +35,21 @@ public class Calculator {
         }
         return sum;
     }
+
+    public double arrayMean(double[] array) {
+        return arraySum(array) / array.length;
+    }
+
+    public double arrayVariance(double[] array) {
+        double mean = arrayMean(array);
+        double variance = 0;
+        for (double num : array) {
+            variance += Math.pow(num - mean, 2);
+        }
+        return variance / array.length;
+    }
+
+    public double arrayStdDev(double[] array) {
+        return Math.sqrt(arrayVariance(array));
+    }
 }
